@@ -1,0 +1,73 @@
+<html>
+
+	<head>
+		
+		<title> Admin Page </title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="admin.css">
+		
+	</head>
+	
+	<body>	
+		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+			
+			<br><br><br>
+				
+			<div class="container">
+					
+				<br><br><br>	
+					
+				<p style="font-family:times new roman;font-size:30px;text-align:center;color:white">Log In</p>
+				
+				<br>
+					
+				<b><p  style="font-family:times new roman;font-size:20px;text-align:center;">User Name:&nbsp;
+				<input type="text" id="user" name="user" placeholder="enter user name" style="border-radius:10px"></p>
+				
+				<p style="font-family:times new roman;font-size:20px;text-align:center">Password:&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="password" id="password" name="user name" placeholder="enter password" style="border-radius:10px;"></p>
+				<br>
+				<div class="container-login100-form-btn">
+						<button class="login100-form-btn" onclick="log()">
+							Login
+						</button>
+						
+						<script>
+							function log(){
+							var a="ram";
+							var b="vignan";
+							var x=document.getElementById("user").value;
+							var y=document.getElementById("password").value;
+							if(x==a && y==b){
+							location.href="stu.html";
+							}
+							else{
+							alert("invalid credentials");
+							}
+							}
+							
+						</script>
+						
+				</div>
+				<br><br>
+				<div class="text-center">
+						<a class="txt1" href="#">
+							Forgot Password
+						</a>
+				</div>
+				
+			</div>
+		
+		</div>
+	</body>
+
+</html>
