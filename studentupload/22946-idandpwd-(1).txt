@@ -1,0 +1,8 @@
+pocket job := id = anirbankar93.ak@gmail.com
+        password = anirban1993
+indeed.com := id = anirbankar93.ak@gmail.com
+        password = anirban1993
+techmahindra := id = anirbankar93.ak@gmail.com
+	password  =  Kittu1993
+monster.com := id = anirbankar93.ak@gmail.com
+        password = anirban1993
